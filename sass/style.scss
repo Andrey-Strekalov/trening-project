@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  .header-block {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-bottom: 2px solid grey;
+    .block_1,
+    .block_2,
+    .block_3 {
+      width: 10%;
+      background: rgb(102, 101, 101);
+      height: 90px;
+      margin: 20px 20px 20px 0;
+    }
+    .block_2 {
+      width: 30%;
+    }
+    .block_3 {
+      width: 60%;
+      margin-right: 0;
+    }
+  }
+}
