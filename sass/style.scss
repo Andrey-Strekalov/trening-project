@@ -1,27 +1,108 @@
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   .header-block {
     width: 960px;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     border-bottom: 2px solid grey;
-    .block_1,
-    .block_2,
-    .block_3 {
+    .block-1,
+    .block-2,
+    .block-3 {
       width: 10%;
       background: rgb(102, 101, 101);
       height: 90px;
       margin: 20px 20px 20px 0;
     }
-    .block_2 {
+    .block-2 {
       width: 30%;
     }
-    .block_3 {
+    .block-3 {
       width: 60%;
       margin-right: 0;
+    }
+  }
+  .main-block {
+    width: 960px;
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    .aside {
+      width: 15%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .block-4 {
+        width: 100%;
+        height: 45%;
+        background: rgb(102, 101, 101);
+        margin: 20px 20px 0 0;
+      }
+      .block-7 {
+        width: 100%;
+        height: 20%;
+        background: rgb(102, 101, 101);
+      }
+    }
+    .block-elements {
+      width: 83%;
+      height: 95%;
+      margin: 20px 0 0 20px;
+      .top-panel {
+        background: rgb(216, 215, 215);
+        margin: 0 0 20px 0;
+        width: 100%;
+        height: 30%;
+      }
+      .block-element-rows {
+        width: 100%;
+        height: 40%;
+        .row {
+          display: flex;
+          flex-direction: row;
+          height: 44%;
+          width: 100%;
+          margin: 20px 0 20px 0;
+          .element {
+            width: 20%;
+            
+            background: rgb(216, 215, 215);
+            margin: 0 20px 0 0;
+          }
+          .last-elem {
+            margin: 0;
+          }
+        }
+        .last-row {
+          .element {
+            margin-bottom: 0;
+            width: 18%;
+          }
+        }
+      }
+      .bottom-panel {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        .block-8 {
+          width: 48.5%;
+          height: 100%;
+          background: rgb(216, 215, 215);
+          margin: 0 20px 0 0;
+        }
+        .block-9 {
+          width: 48.5%;
+          height: 100%;
+          background: rgb(216, 215, 215);
+        }
+      }
     }
   }
 }
