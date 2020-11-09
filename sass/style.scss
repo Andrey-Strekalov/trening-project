@@ -14,13 +14,14 @@
     flex-direction: row;
     margin: 0 auto;
     border-bottom: 2px solid grey;
+    padding: 20px 0 20px 0;
     .block-1,
     .block-2,
     .block-3 {
       width: 10%;
       background: rgb(102, 101, 101);
       height: 90px;
-      margin: 20px 20px 20px 0;
+      margin: 0 20px 0 0;
     }
     .block-2 {
       width: 30%;
@@ -36,6 +37,7 @@
     height: 900px;
     display: flex;
     flex-direction: row;
+    padding: 20px 0 20px 0;
     .aside {
       width: 15%;
       height: 100%;
@@ -43,11 +45,12 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      
       .block-4 {
         width: 100%;
         height: 45%;
         background: rgb(102, 101, 101);
-        margin: 20px 20px 0 0;
+       
       }
       .block-7 {
         width: 100%;
@@ -57,23 +60,24 @@
     }
     .block-elements {
       width: 83%;
-      height: 95%;
-      margin: 20px 0 0 20px;
+      // height: 100%;
+      margin: 0 0 0 20px;
       .top-panel {
         background: rgb(216, 215, 215);
-        margin: 0 0 20px 0;
+        
         width: 100%;
-        height: 30%;
+        height: 29.4%;
       }
       .block-element-rows {
         width: 100%;
-        height: 40%;
+        height: 39.13%;
+        
         .row {
           display: flex;
           flex-direction: row;
           height: 44%;
           width: 100%;
-          margin: 20px 0 20px 0;
+          margin: 20px 0 0 0;
           .element {
             width: 20%;
             background: rgb(216, 215, 215);
@@ -85,14 +89,13 @@
         }
         .last-row {
           .element {
-            margin-bottom: 0;
-            width: 18%;
+             width: 18%;
           }
         }
       }
       .bottom-panel {
         width: 100%;
-        height: 30%;
+        height: 29.3%;
         display: flex;
         flex-direction: row;
         margin: 0;
@@ -115,8 +118,9 @@
     height: 150px;
     display: flex;
     flex-direction: row;
-    margin: 20px 0 0 0;
     border-top: 2px solid grey;
+    margin: 0 0 60px 0;
+    padding: 20px 0 0 0 ;
     .footer__row {
       width: 66.6%;
       height: 100%;
@@ -126,11 +130,11 @@
       .row__item {
         width: 47.5%;
         height: 100%;
-        margin: 20px 20px 0 20px;
+        margin: 0 20px 0 20px;
         background: rgb(102, 101, 101);
       }
       .block-10 {
-        margin: 20px 0 0 0;
+        margin: 0;
       }
     }
     .footer__column {
@@ -138,7 +142,7 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      margin: 20px 0 0 0;
+      
       .top-item {
         margin: 10px;
         width: 100%;
